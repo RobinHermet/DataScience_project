@@ -8,7 +8,7 @@ from afc import *
 from ki2 import * 
 from constants import *
 
-app = Dash(__name__, external_stylesheets="assets/style.css")
+app = Dash(__name__)
 server = app.server
 
 def showAfc(paramAfc1,paramAfc2):
