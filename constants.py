@@ -2,54 +2,54 @@
 
 #Presentation de l'étude
 PRESENTATION=(
-    "Dans cette étude statistique, nous avons décidées d'étudier les disparités entre genres dans l'orientation scolaire et professionnelle.\n"+
+    "Dans cette étude statistique, nous avons décidé d'étudier les disparités entre genres dans l'orientation scolaire et professionnelle.\n"+
     "Le but est dans un premier temps d'identifier quelles sont les disparités dans le parcours scolaire du public féminin, " +
-    "puis dans un second temps de tenter d'identifier les facteurs influant sur ces disparités afin de réfléchir aux actions à mettre en place dans le futur pour que l’orientation soit le moins genré possible.\n"+ 
+    "puis, dans un second temps, de tenter d'identifier les facteurs influant sur ces disparités afin de réfléchir aux actions à mettre en place dans le futur pour que l’orientation soit le moins genrée possible.\n"+ 
     "Pour ce faire, nous nous sommes basés sur des données ouvertes disponibles sur data.education.gouv, concernant principalement des élèves de seconde entre 2020 et 2022,"+
     "ainsi que des données ouvertes mises en ligne par l’INSEE."
 )
 
 #Presenation des disparites + Partie 1 de l'explication du premier XH2 (à afficher juste avant la valeur du XHI2)
 XHI2_AFC1_PT1=(
-    "Afin d’observer les disparités, nous avons premièrement pensé à regarder les voeux des élèves de seconde dans les différentes filières et selon leur sexe."+
+    "Afin d’observer les disparités, nous avons premièrement pensé à regarder les voeux d'orientation des élèves de seconde selon leur sexe."+
     "En effet, les voeux de seconde ayant un véritable impact sur l’orientation professionelle, "+
-    "il nous semblait intéressant de voir si une disparité pouvait déja être observé à un âge adolescent et plus particulièrement si le sexe influait sur le choix des élèves.\n\n"+
+    "il nous semblait intéressant de voir si une disparité pouvait déja être observé à l'adolescence et plus particulièrement si le sexe influait sur le choix des élèves.\n\n"+
 
     "Afin de certifier une corrélation entre le sexe et les voeux d’orientation de notre public de seconde, un test du Xhi2 a été réalisé. "+
     "Celui-ci a pour objectif de quantifier l'écart à l'indépendance entre nos deux variables qualitatives “sexe” et “choix”.\n"+
     "Nous avons ainsi poser les hypothèses suivantes :\n" +
     "H0: Il n’existe pas de relation entre le sexe et la prise de décision des élèves de seconde\n"+
-    "H1: Le sexe influe sur la prise de décision des élèves de secondes. \n\n"+
+    "H1: Le sexe influe sur la prise de décision des élèves de seconde. \n\n"+
 
     "La valeur du Xhi2 est ici de  " 
 )
 
 #Partie 2 de l'explication du premier XHI2 (à afficher après la valeur du XHI2)
 XHI2_AFC1_PT2=(
-    " Pour un degré de liberté valant (I-1)(J–1)=17 ici et avec un risque de première espèce fixé à 5%, la valeur du Xhi2 est supérieure au seuil q(95%, 17)." +
+    " Pour un degré de liberté valant (I-1)(J–1)=17 ici, et avec un risque de première espèce fixé à 5%, la valeur du Xhi2 est supérieure au seuil q(95%, 17)." +
     "On peut alors rejetter l’hypothèse d’indépendance entre sexe et choix d’orientation et conclure de manière significative à l’existence d’un lien entre ces deux variabes.\n"+
-    "Dans l’optique de représenter ce lien, une Analyse Factorielle de Correspondance entre ces variables a été réalisée."
+    "Dans l’optique de représenter ce lien, une Analyse Factorielle des Correspondances entre ces variables a été réalisée."
 )
 
 #Analyse premiere AFC (Orientation/Sexe)
 PRESENTATION_AFC1=(
     "Cette AFC, où la totalité l’information est representée sur le premier axe, nous permet malgré tout d’observer les disparités suivantes :\n"+
-    "on observe, à l’extremité gauche, 2 choix de matière particulièrement écartés que sont “Danse”,  “Humanité, Littérature et philosophie/ langue  et sciences économiques et sociales”.\n"+
+    "on observe, à l’extremité gauche, 2 choix de matière particulièrement écartés que sont “Danse”,  “Humanité, Littérature et philosophie/langue  et sciences économiques et sociales”.\n"+
     "On observe, à l’extrémité droite, 4 choix de matières particulièrement écartés que sont “Sciences Informatique, “Sciences de l’ingénieur, ”Mathématique” et “Physique chimie”.\n"+
-    "En portant un oeil aux modalités “ Homme” et “Femme” représentées aussi sur cette AFC, nous pouvons remarquer que les variables présentes à gauche sont corrélées avec le sexe féminin alors que les variables situées à droite corrélent avec le sexe masculin.\n\n"+
+    "En portant un oeil aux modalités “ Homme” et “Femme” représentées aussi sur cette AFC, nous pouvons remarquer que les variables présentes à gauche sont corrélées avec le sexe féminin alors que les variables situées à droite le sont avec le sexe masculin.\n\n"+
 
     "Cette observation et le test du Xhi2 réalisé précédemment nous ont donc permis de mettre en lumière que le sexe influe sur le voeux des élèves de seconde, " +
     "et que les femmes ont plutôt tendance à s’orienter vers des matières “ littéraires” ou “sociales” alors que les hommes ont plutôt tendance à s’orienter vers des matières dites “scientifiques”.\n\n"+
 
     "Cette disparité, observable en école d’ingénieur par exemple, est donc déjà observable chez les élèves de seconde. "+
-    "Cela nous pousse donc à nous poser la question des facteurs qui influent sur cette décision de s’orienter selon son sexe."
+    "Cela nous pousse donc à nous poser la question des facteurs qui influent sur cette décision."
 )
 
 #Presentation Taux de Parité, à mettre en premier apres l'analyse de l'AFC1
 PRESENTATION_TAUX_PARITE=(
     "L’AFC réalisée dans la partie 1 nous a donc extrapolé quelques matières que l’on peut qualifier à tendance masculine.\n\n"+
     "Les “voeux à tendances masculines” sont donc calculés comme étant des voeux comportant les combinaisons “mathématique/physique chimie/ numérique/ingénieur ”\n\n"+
-    "Ainsi, afin de pouvoir décrire la qualité d’un lycée à ne pas tendre vers ce comportement dispersif, et afin d'évaluer la part de femme ayant réalisée des choix"+
+    "Ainsi, afin de pouvoir décrire la qualité d’un lycée à ne pas tendre vers ce comportement dispersif, et afin d'évaluer la part de femme ayant réalisé des choix"+
     " d'orientation dont on dira qu'il ne leur correspond pas (à tendance masculine), un taux de parité est calculé pour chaque lycée.\n"+
     "Le Taux de Parité ( TP ) d’un lycée est ainsi défini comme suit: \n\n"+
     "TP (lycée)  = Nombre de voeux féminin à tendance masculine (lycée) / Nombre de voeux total féminin (lycée) \n\n"+
@@ -68,7 +68,7 @@ PRESENTATION_IPS=(
 PRESENTATION_INDICE_RURAL=(
     "L'indice de ruralité de l'INSEE est un indicateur qui mesure le degré de ruralité d'un territoire en France. Il est basé sur une classification des communes en fonction de critères tels que la densité de population, la présence d'équipements publics"+
     " et la proximité avec des villes. Les communes sont classées en 4 catégories :  \"Communes très peu denses\", \"Communes peu denses\", \"Communes de densité intermédiaire\", \"Communes densément peuplées\". "+
-    "Cet indice est utilisé pour établir des politiques de développement territorial et pour étudier les différences de niveaux de vie entre les zones rurales et urbaines. Couplée à nos données, il permet de déterminer dans quelle type de zone se trouve le lycée étudié"+
+    "Cet indice est utilisé pour établir des politiques de développement territorial et pour étudier les différences de niveaux de vie entre les zones rurales et urbaines. Couplé à nos données, il permet de déterminer dans quel type de zone se trouve le lycée étudié"+
     ", et ainsi observer l’impact de la ruralité sur les choix des élèves."
 )
 
@@ -90,7 +90,7 @@ PRESENTATION_AFC2=(
     "Tout d’abord, la modalité “Commune très peu dense” étant associée à aucun lycée, sa représentation éloignée ne nous apporte aucune information."+
     "Néanmoins, nous pouvons observer un regroupement des modalités \"Élevé\" et \"Assez élevé\" du taux de parité autour de la modalité \"communes densément peuplé\", tout comme un regroupement des modalités \"Assez faible\", \"faible\" et \"moyen\" autour des modalités de ruralité \"peu dense\" et \"densité intermédiaire\"."+
     "Ces résultats sont marquants car ils démontrent que dans les zones les plus denses, équipées de nombreux équipements publics ou proches des grandes villes, la disparité tend à disparaître."+
-    "Néanmoins,  et malgré un regroupement des modalités, un calcul de l’écart à l’indépendance des variables sexe et choix a été calculé pour différents niveaux de ruralité: "
+    "Néanmoins, et malgré un regroupement des modalités, un calcul de l’écart à l’indépendance des variables sexe et choix a été calculé pour différents niveaux de ruralité: "
 
 )
 
