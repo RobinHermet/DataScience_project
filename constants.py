@@ -125,21 +125,21 @@ SOLUTIONS=(
 )
 
 SOL1=(
-    "Sensibilisation et formation des professionnels de l'orientation sur les biais de genre et les stéréotypes de genre."
+    " 1- Sensibilisation et formation des professionnels de l'orientation sur les biais de genre et les stéréotypes de genre."
 )
 
 SOL2=(
-    "Mise en place de programmes d'éducation sur les genres dans les écoles et les collèges pour briser les stéréotypes de genre et favoriser l'égalité des sexes."
+    "2- Mise en place de programmes d'éducation sur les genres dans les écoles et les collèges pour briser les stéréotypes de genre et favoriser l'égalité des sexes."
 )
 
 SOL3=(
-    "Encourager les filles à étudier des domaines traditionnellement masculins, comme les sciences, les mathématiques et les technologies, et les garçons à étudier des domaines traditionnellement féminins, comme les sciences sociales et les sciences de l'éducation."
+    "3- Encourager les filles à étudier des domaines traditionnellement masculins, comme les sciences, les mathématiques et les technologies, et les garçons à étudier des domaines traditionnellement féminins, comme les sciences sociales et les sciences de l'éducation."
 )
 
 SOL4=(
-    "Favoriser la diversité dans les choix d'orientation, en proposant des programmes d'orientation qui tiennent compte des intérêts et des compétences des élèves, plutôt que de se baser sur les stéréotypes de genre."
+    "4- Favoriser la diversité dans les choix d'orientation, en proposant des programmes d'orientation qui tiennent compte des intérêts et des compétences des élèves, plutôt que de se baser sur les stéréotypes de genre."
 )
 
 SOL5=(
-    "Inclure des personnes de différents genres dans les processus de prise de décision en matière d'orientation et les inclure dans les programmes de mentorat pour les élèves."
+    "5- Inclure des personnes de différents genres dans les processus de prise de décision en matière d'orientation et les inclure dans les programmes de mentorat pour les élèves."
 )
